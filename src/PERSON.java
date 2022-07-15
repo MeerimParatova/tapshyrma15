@@ -33,4 +33,12 @@ public class PERSON {//человек
     public void setDesignation(String designation) {
         this.designation = designation;
     }
+
+    @Override
+    public String toString() {
+        return "PERSON{" +
+                "name='" + name + '\'' +
+                ", designation='" + designation + '\'' +
+                '}';
+    }
 }

@@ -34,4 +34,9 @@ public class Singer extends PERSON {
     public void playGitar(){
         System.out.println("Singer playGitar");
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"bandName-"+bandName;
+    }
 }

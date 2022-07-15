@@ -31,4 +31,9 @@ public class Programmer extends PERSON {
     public void coding(){
         System.out.println("Programmer coding");
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"Companu name-"+companyName;
+    }
 }

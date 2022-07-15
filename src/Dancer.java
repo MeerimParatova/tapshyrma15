@@ -30,4 +30,9 @@ public class Dancer extends PERSON{
     public void dancing(){
         System.out.println("Dancer dancing");
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+"groupName-"+groupName;
+    }
 }
